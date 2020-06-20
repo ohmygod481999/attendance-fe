@@ -1,0 +1,40 @@
+.list-box {
+    background-color: #f0f2f1;
+    padding: 20px;
+    border-radius: 5px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.l-item {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: gray solid 1px;
+}
+
+.title-group {
+  display: inline-block;
+}
+
+.title-group .l-title {
+  font-weight: bold;
+}
+.title-group .l-description {
+  font-size: small;
+}
+
+.bg-image {
+  background: url('https://images.unsplash.com/photo-1592436259366-18ab6da5f195?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+}
+
+.form-box {
+  flex-basis: 30%;
+  background-color: #f0f2f1;
+  padding: 20px;
+  border-radius: 5px;
+}
